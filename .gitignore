@@ -1,0 +1,49 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+.tfstate.
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Crash log files
+crash.log
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Sensitive override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output
+*.tfplan
+
+# Ignore core dump files (in case of crash)
+core.*
+
+# Ignore backup files (e.g., by editors)
+*.bak
+*.tmp
+*~
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.swp
+
+# Mac/Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+s_amd64/terraform-provider-aws_v6.7.0_x5.exe
