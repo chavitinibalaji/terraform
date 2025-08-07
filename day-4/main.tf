@@ -6,11 +6,9 @@ resource "aws_instance" "name" {
   }
 }
 resource "aws_vpc" "name" {
-  cidr_block           = "10.0.0.0/16"  # Required
-  enable_dns_support   = true
-  enable_dns_hostnames = true
-
-  tags = {
-    Name = "my-vpc-1"
-  }
+    cidr_block = "10.0.0.0/16"
+    tags = {
+      name ="balu-vpc-1"
+    }
+  
 }
